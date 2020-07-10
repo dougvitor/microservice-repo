@@ -1,0 +1,10 @@
+
+spring:
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/fornecedor-microservice?useTimezone=true&serverTimezone=UTC
+    password: rootdev
+    username: rootdev
+  jpa:
+    hibernate:
+      ddl-auto: update
